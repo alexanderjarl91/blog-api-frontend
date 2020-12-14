@@ -28,6 +28,7 @@ const Text = styled.p`
 const Button = styled.button`
   font-family: monospace;
   font-size: 20px;
+  border: none;
   margin: 5rem;
   transition: 1s;
   &:hover {
@@ -59,7 +60,15 @@ export default function Header() {
           fade-in animation cause I was trying out the AOS library. Scroll down
           to view content generated from the backend data 🙌
         </Text>
-        <Button>Backend on GitHub</Button>
+        <Button>
+          <a
+            href="https://github.com/alexanderjarl91/md5-blog-api"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Backend on GitHub
+          </a>{" "}
+        </Button>
       </Container>
     </div>
   );
