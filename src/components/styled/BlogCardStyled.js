@@ -23,9 +23,12 @@ export const Card = styled.div`
 `;
 
 export const CardImage = styled.img`
+  float: left;
   width: 150px;
   height: 150px;
+  object-fit: cover;
   margin: 1rem;
+  border-radius: 15px;
 `;
 
 export const CardInfo = styled.div`
@@ -46,6 +49,15 @@ export const CardContent = styled.p`
 `;
 
 export const CardButton = styled.button`
+  border: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  max-width: 100px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  &:hover {
+    background-color: orange;
+    border-radius: 10px;
+  }
 `;

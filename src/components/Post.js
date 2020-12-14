@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 
 import {
   Title,
-  Cards,
   Card,
   CardImage,
   CardInfo,
