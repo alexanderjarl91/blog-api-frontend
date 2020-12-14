@@ -9,11 +9,12 @@ export const Cards = styled.div``;
 export const Card = styled.div`
   display: flex;
   background-color: white;
-  margin: 3rem;
+  max-width: 800px;
+  margin: 3rem auto;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  justify-content: center;
+
   align-items: center;
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);

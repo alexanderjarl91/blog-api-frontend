@@ -12,12 +12,11 @@ function App() {
 
   useEffect(async () => {
     const result = await axios(
-      'https://brugg-api.herokuapp.com/breweries',
+      'https://md5-blog-api.herokuapp.com/posts',
     );
  
     setPosts(result.data);
   }, []);
-  //console.log(posts)
 
 
   return (
