@@ -25,8 +25,8 @@ export const Card = styled.div`
 
 export const CardImage = styled.img`
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   margin: 1rem;
   border-radius: 15px;
@@ -35,7 +35,7 @@ export const CardImage = styled.img`
 export const CardInfo = styled.div`
   display: flex;
   flex-direction: column;
-
+  max-height: 200px;
   margin: 1rem 1rem;
 `;
 
@@ -54,11 +54,14 @@ export const CardButton = styled.button`
   margin-top: 1rem;
   margin-bottom: 1rem;
   max-width: 100px;
-  text-align: center;
-  font-size: 15px;
+  text-align: left;
+  font-size: 18px;
   padding: 5px;
+  font-weight: italic;
   &:hover {
-    background-color: orange;
+    background-color: rgba(250, 190, 88, 0.6);
     border-radius: 10px;
+    color: white;
+    border: none;
   }
 `;
